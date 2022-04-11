@@ -185,6 +185,17 @@ git clone *адрес репо*
 ```
 git push
 ```
+
+Поскольку мы создали новую ветку, может произойти ошибка, но Git сам подсказывает, что надо делать:
+```
+$ git push
+fatal: The current branch BoJIodya has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin BoJIodya
+
+```
+
 Тут стоит заметить, что если мы создали репо только локально, то он не имеет привязки к Github.
 
 Нужно будет создать на Github соответствующий репо, далее Github сам подскажет как привязать наш проект к удаленному репо.
